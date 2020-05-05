@@ -1,0 +1,13 @@
+protocol = https://
+domain = [the domain]
+mysql_user = [username]
+mysql_pw = [password]
+mysql_db = wlink
+mysql_host = [database host... if rds, foo.bar.rds.amazonaws.com]
+mysql_port = 3306
+mysql_additional = charset=utf8mb4
+app_secret_key = somekey
+logging_level = DEBUG
+base_dir = /home/ec2-user/watch-link
+basic_user = [basic username]
+basic_password = [token which created by get_basic_token.py]
